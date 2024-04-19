@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/caidan.png</file>
+        <file>icons/diannaopcxianshiqi.png</file>
+        <file>icons/key.png</file>
+        <file>icons/full-screen.png</file>
+        <file>icons/USB.png</file>
+    </qresource>
+</RCC>

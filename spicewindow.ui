@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SpiceWindow</class>
+ <widget class="QMainWindow" name="SpiceWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SpiceWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QToolBar" name="ToolBar">
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionsend_key"/>
+   <addaction name="actionusbredir"/>
+   <addaction name="actiondisplay"/>
+  </widget>
+  <action name="actiondisplay">
+   <property name="icon">
+    <iconset theme="diaplay" resource="res.qrc">
+     <normaloff>:/icons/icons/diannaopcxianshiqi.png</normaloff>:/icons/icons/diannaopcxianshiqi.png</iconset>
+   </property>
+   <property name="text">
+    <string>display</string>
+   </property>
+  </action>
+  <action name="actionusbredir">
+   <property name="icon">
+    <iconset theme="usbredir" resource="res.qrc">
+     <normaloff>:/icons/icons/USB.png</normaloff>:/icons/icons/USB.png</iconset>
+   </property>
+   <property name="text">
+    <string>usbredir</string>
+   </property>
+  </action>
+  <action name="actionsend_key">
+   <property name="icon">
+    <iconset theme="send_key" resource="res.qrc">
+     <normaloff>:/icons/icons/key.png</normaloff>:/icons/icons/key.png</iconset>
+   </property>
+   <property name="text">
+    <string>send_key</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
